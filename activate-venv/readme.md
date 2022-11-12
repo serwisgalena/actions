@@ -5,10 +5,10 @@ By default it searches in `venv/` then `.venv/`.
 This is configurable via a JSON list passed to the `directories` parameter.
 
 ```yaml
-- uses: bpx-network/actions/activate-venv@main
+- uses: serwisgalena/actions/activate-venv@main
 ```
 
 ```yaml
-- uses: bpx-network/actions/activate-venv@main
+- uses: serwisgalena/actions/activate-venv@main
   directories: '["another_virtualenv/"]'
 ```
